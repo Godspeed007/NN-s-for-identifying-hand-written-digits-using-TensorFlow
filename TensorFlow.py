@@ -1,8 +1,11 @@
+#Trademark ~~ El Patron ~
+#For easiness in identification of human nature and tendency :p
+
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 
-mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)  # y labels are oh-encodedn_train = mnist.train.num_examples  # 55,000
+mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)  # y labels are one-hot-encodedn_train = mnist.train.num_examples  # 55,000
 n_validation = mnist.validation.num_examples  # 5000
 n_test = mnist.test.num_examples  # 10,000
 n_input = 784  # input layer (28x28 pixels)
