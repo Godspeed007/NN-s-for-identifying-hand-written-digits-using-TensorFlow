@@ -1,4 +1,4 @@
-#Trademark ~~ El Patron ~
+#Trademark ~~ El Patron/lordstark196 ~
 #For easiness in identification of human nature and tendency :p
 
 import tensorflow as tf
